@@ -1,5 +1,6 @@
 .wrapper {
     margin: 100px 0;
+    background: rgb(255, 255, 245);
 }
 .pokemon-grid {
     display: flex;
@@ -14,13 +15,17 @@
     width: 300px;
     height: 300px;
     border-radius: 5px;
+    background: white;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .pokemon-grid .box:hover {
     border: red solid 0.8px;
+    border-radius: 10px;
     box-shadow: 1px 2px 6px rgba(255, 0, 0, 0.4);
     box-sizing: border-box;
 }
@@ -35,6 +40,14 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.pokeDes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
 }
 
 pagination-controls {
