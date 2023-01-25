@@ -1,6 +1,14 @@
 # Pokedex
 https://hovinhthanh7893.github.io/pokedex/
 
+# WORK ON MAIN BRANCH
+git checkout main
+
+# DEPLOY ON GH-PAGES BRANCH
+git checkout gh-pages
+
+-------------------------------------------------------
+
 ## Install
 npm install -g @angular/cli
 
@@ -29,6 +37,8 @@ npm install ngx-pagination --save
 
 ## Create new footer
 ng g c footer
+
+---------------------------------------------------------------
 
 ## Install package for gh-pages
 ng add angular-cli-ghpages
