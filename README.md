@@ -1,40 +1,37 @@
 # Pokedex
 https://hovinhthanh7893.github.io/pokedex/
 
-//Install
+## Install
 npm install -g @angular/cli
 
-//Init project
+## Init project
 ng new project-folder-name
 
-//Run dev
+## Run dev
 ng serve --open
 
-//create new header
+## Create new header
 ng g c header
 
-//create service for data
+## Create service for data
 ng g s service/data
 
-//import HttpClientModule to app.module.ts
-//import HttpClient to data.service.ts > getPokemons function
+## Import HttpClientModule to app.module.ts
+## Import HttpClient to data.service.ts > getPokemons function
 
-//create new pokemon list
+## Create new pokemon list
 ng g c pokemon-list
 
-//Install pagination
+## Install pagination
 npm install ngx-pagination --save
 
-//import NgxPaginationModule to app.module.ts
+## Import NgxPaginationModule to app.module.ts
 
-//create new footer
+## Create new footer
 ng g c footer
 
-
-
-
-//package for gh-pages
+## Install package for gh-pages
 ng add angular-cli-ghpages
 
-//deploy to gh-pages
+## Deploy to gh-pages
 ng deploy --base-href=https://hovinhthanh7893.github.io/pokedex/
