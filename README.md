@@ -8,40 +8,33 @@ npm install -g @angular/cli
 ng new project-folder-name
 
 //Run dev
-ng serve
+ng serve --open
+
+//create new header
+ng g c header
+
+//create service for data
+ng g s service/data
+
+//import HttpClientModule to app.module.ts
+//import HttpClient to data.service.ts > getPokemons function
+
+//create new pokemon list
+ng g c pokemon-list
+
+//Install pagination
+npm install ngx-pagination --save
+
+//import NgxPaginationModule to app.module.ts
+
+//create new footer
+ng g c footer
+
+
+
 
 //package for gh-pages
 ng add angular-cli-ghpages
 
 //deploy to gh-pages
 ng deploy --base-href=https://hovinhthanh7893.github.io/pokedex/
-
-
-
-# Pokedex
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
