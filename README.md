@@ -1,4 +1,24 @@
 # Pokedex
+https://hovinhthanh7893.github.io/pokedex/
+
+//Install
+npm install -g @angular/cli
+
+//Init project
+ng new project-folder-name
+
+//Run dev
+ng serve
+
+//package for gh-pages
+ng add angular-cli-ghpages
+
+//deploy to gh-pages
+ng deploy --base-href=https://hovinhthanh7893.github.io/pokedex/
+
+
+
+# Pokedex
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
