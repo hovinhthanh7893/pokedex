@@ -1,13 +1,10 @@
-# Pokedex
+# [Pokedex](https://hovinhthanh7893.github.io/pokedex/)
+
+Pokedex website made with Angular, TypeScript and public PokéAPI
+
 https://hovinhthanh7893.github.io/pokedex/
 
-# WORK ON MAIN BRANCH
-git checkout main
-
-# DEPLOY ON GH-PAGES BRANCH
-git checkout gh-pages
-
--------------------------------------------------------
+---------------------------------------------------------------
 
 ## Install
 npm install -g @angular/cli
@@ -25,6 +22,7 @@ ng g c header
 ng g s service/data
 
 ## Import HttpClientModule to app.module.ts
+
 ## Import HttpClient to data.service.ts > getPokemons function
 
 ## Create new pokemon list
